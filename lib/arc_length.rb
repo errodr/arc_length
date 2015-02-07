@@ -6,8 +6,12 @@ module ArcLength
       @radius = radius
     end
 
+    def circumference
+      2 * Math::PI * @radius
+    end
+
     def calculate_arc_length(arc_measure)
-      (2 * Math::PI * @radius) * (arc_measure.to_f/360)
+      circumference * (arc_measure.to_f/360)
     end
   end
 end
