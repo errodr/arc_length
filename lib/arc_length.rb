@@ -11,6 +11,3 @@ module ArcLength
     end
   end
 end
-
-c = ArcLength::Circle.new(5)
-puts c.calculate_arc_length(5)
