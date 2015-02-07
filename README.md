@@ -20,8 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
+```
 c = ArcLength::Circle.new(5)
 c.calculate_arc_length(5)
+```
 
 ## Contributing
 
